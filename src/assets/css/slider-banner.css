@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&display=swap");
+
+.main-text-slider {
+  position: absolute;
+  display: block;
+  overflow: visible;
+  font-size: 3rem !important;
+  line-height: 85px;
+  font-weight: 900;
+  color: #fff;
+  letter-spacing: 0;
+  font-family: "Poppins", sans-serif !important;
+  visibility: inherit;
+  margin: 0 0;
+  padding: 6px 10px 6px 10px;
+
+  background-color: #3db166;
+  max-width: none;
+  opacity: 0.9;
+  transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+  transform-origin: 50% 50% 0px;
+  text-align: left !important;
+}
+.subTitle-slider {
+  position: absolute;
+  box-sizing: borderbox;
+  display: block;
+  overflow: visible;
+  z-index: 7;
+  /* font-size: 16px; */
+  /* font-size: 16px;
+  line-height: 20px; */
+  font-weight: 600;
+  background-color: #fff;
+  color: #000;
+  border-color: #3db166;
+  border-style: solid;
+  border-width: 0 0 0 5px;
+  cursor: pointer;
+  margin: 0;
+  padding: 18px 20px;
+  min-height: 0px;
+  min-width: 0px;
+  max-height: none;
+  max-width: none;
+  opacity: 1;
+  transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+  transform-origin: 50% 50% 0px;
+  max-width: 68%;
+}

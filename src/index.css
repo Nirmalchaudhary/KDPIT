@@ -1,4 +1,4 @@
-body {
+/* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +10,172 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+} */
+
+::-webkit-scrollbar{
+  display: none;
 }
+
+          /* -------------------- About--------------------- */
+
+
+
+.about-thumb img{
+    width: 650px;
+}
+
+.lab-ul li{
+  display: flex;
+  gap: 50px;
+}
+.lab-ul{
+  display: grid;
+  row-gap: 20px;
+}
+
+.sr-right{
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+.title{
+  font-weight: bolder;
+  margin-bottom: 50px;
+}
+
+.shape1{
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 730px 0 0 1000px;
+  border-color: transparent transparent transparent #26c976;
+  position: absolute;
+  left: 0;
+}
+
+.video1{
+  background-image: radial-gradient(#000000 1px, transparent 1px);
+  background-size: 32px 32px;
+  background-color: #ffffff;
+  height: 100vh;
+}
+
+.video-main{
+position: absolute;
+width: 45%;
+margin-top: 50px;
+left :28%;
+padding: 5px;
+border: 8px solid white;
+}
+
+.title1{
+  margin-top: 60px;
+  font-weight:900;
+  font-size: 40px;
+}
+
+
+/* -----------------clubs---------------- */
+
+.card-main{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 20px;
+}
+.card-body{
+  height: 190px;
+text-align: justify;  
+overflow-x: scroll;
+}
+.img-container{
+  position: relative;
+}
+.card-body h5{
+  color:rgb(0, 102, 179) ;
+}
+
+
+
+.instructor-thumb img{
+   width: 150px;
+}
+.colab{
+  padding: 50px;
+  -webkit-box-shadow: 10.5px 14px 10px 0.5px #dddddd;
+-moz-box-shadow: 10.5px 14px 10px 0.5px #dddddd;
+box-shadow: 10.5px 14px 10px 0.5px #dddddd;
+}
+
+
+.achievement-section{
+  margin-top: 100px;
+  background: #0066b3;
+  color: white;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.col{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.count-content h1{
+  display: flex;
+  justify-content: center;
+  font-weight: bolder;
+}
+.count-content p{
+font-size: 1.2rem;
+}
+
+._client-thumb{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.client-content p{
+  width: 60%;
+  text-align: center;
+  font-size: larger;
+  color: gray;
+}
+.client-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.client-info{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.client-in h5{
+ font-weight: bold;
+display: flex;
+justify-content: center;
+align-items: center;}
+
+.client-in span{
+  color:gray ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sub-test{
+  color: #f16126;
+  font-size: x-large;
+}
+
+.footer-top{
+  background: #0066b3;
+}
+
+  
