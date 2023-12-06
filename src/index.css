@@ -26,11 +26,11 @@ code {
 
 .lab-ul li{
   display: flex;
-  gap: 50px;
+  gap: 5px;
 }
 .lab-ul{
   display: grid;
-  row-gap: 20px;
+  row-gap: 10px;
 }
 
 .sr-right{
@@ -40,7 +40,7 @@ code {
 }
 .title{
   font-weight: bolder;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
 
 .shape1{
@@ -176,6 +176,22 @@ align-items: center;}
 
 .footer-top{
   background: #0066b3;
+  margin-top: 0.2rem;
 }
 
-  
+.phone{
+  margin-left: 1rem;
+}
+
+.mail{
+  margin-left: 1rem;
+}
+
+.quick_links{
+  margin-left: 6rem;
+  margin-top: 1rem;
+}
+
+.googlemap{
+  margin-top: 4.5rem;
+}
